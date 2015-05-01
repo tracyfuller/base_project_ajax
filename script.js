@@ -29,6 +29,8 @@ $(document).ready(function(){
 
     $('#dataBox').on('click', '#removeBtn', function(){
         $(this).parent().remove();
+        cityHtml = null;
+        cityData = null;
     });
 
 
